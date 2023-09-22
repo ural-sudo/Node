@@ -1,0 +1,1 @@
+{"numberOfCPU":12,"totalMem":8441409536000,"freeMem":1738067968000}
