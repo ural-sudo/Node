@@ -2,7 +2,7 @@
 
 let randomNumber = Math.floor(Math.random()*100);
 console.log("Random number " + randomNumber);
-let randomNumberfirst = Math.floor(randomNumber/10);
+let randomNumberfirst = Math.flPoor(randomNumber/10);
 console.log("Random First " + randomNumberfirst);
 let randomNumberSecond = randomNumber%10;
 console.log("Random Second " + randomNumberSecond);
@@ -30,3 +30,4 @@ console.log("Random Second " + randomNumberSecond);
 }
 
 tahminEt(45);
+log
