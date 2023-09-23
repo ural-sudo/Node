@@ -1,6 +1,6 @@
 
 
-function getUser(id){
+exports.getUser = id =>{
     console.log("User getiriliyor...");
      return new Promise((res,rej) => {
         setTimeout(() => {
@@ -10,7 +10,7 @@ function getUser(id){
     });
 }
 
-const getCourse = courses => {
+exports.getCourse = courses => {
     return new Promise((res,rej)=> {
         console.log("Courses are came");
         setTimeout(() => {
@@ -20,9 +20,9 @@ const getCourse = courses => {
     });
 };
 
-getUser(1).then(result => {
+/* getUser(1).then(result => {
     console.log(result);
    getCourse(["türkçe","ingilizce"]).then(result=>{
     console.log(result);
    });
-});
+}); */
